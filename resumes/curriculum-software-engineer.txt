@@ -1,0 +1,5 @@
+LUCA FERRARI.Senior Software Engineer - Web Applications  .Email: luca.ferrari@email.com  .Tel: +39 347 8565432  .Torino, Italia  .LinkedIn: linkedin.com/in/lucaferrari  .GitHub: github.com/lucaferrari..
+PROFILO PROFESSIONALE.Senior Software Engineer con 15 anni di esperienza nella progettazione e sviluppo di applicazioni web enterprise altamente scalabili. Specializzato in architetture cloud-native, microservizi e sistemi distribuiti.
+ESPERIENZA PROFESSIONALE..
+Lead Software Architect | TechScale S.p.A. | 2019 - Presente.- Guida di un team di 20 sviluppatori.- Progettazione di architettura microservizi.
+COMPETENZE TECNICHE.- JavaScript/TypeScript.- Python.- Java.- Go.- AWS.- Docker.- Kubernetes.

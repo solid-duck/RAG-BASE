@@ -45,7 +45,9 @@ id_counter = 0
 print("Caricamento e indicizzazione dei CV...")
 
 if not os.path.exists(documents_dir):
-    print(f"Errore: La cartella '{documents_dir}' non esiste.")
+    print(f"Attenzione: La cartella '{documents_dir}' non esiste. La creo adesso in automatico!")
+    os.makedirs(documents_dir)
+    print("Cartella creata. Inserisci i tuoi file .txt al suo interno e poi riavvia lo script.")
     exit()
 
 for filename in os.listdir(documents_dir):
@@ -68,7 +70,7 @@ for filename in os.listdir(documents_dir):
                 id_counter += 1
 
 if not documents:
-    print("Nessun documento trovato nella cartella resumes.")
+    print("Nessun documento trovato nella cartella resumes. Aggiungi qualche CV in formato .txt e riprova.")
     exit()
 
 print("Configurazione database vectoriale (ChromaDB)...")
